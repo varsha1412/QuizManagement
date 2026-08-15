@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Assessment</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <h1>Online Assessment</h1>
+
+    <form method="POST">
+
+        <h3>Question 1</h3>
+        <p>What is Python?</p>
+
+        <input type="radio" name="q1" value="A" required>
+        Programming Language
+        <br>
+
+        <input type="radio" name="q1" value="B">
+        Database
+        <br>
+
+        <input type="radio" name="q1" value="C">
+        Browser
+        <br>
+
+        <input type="radio" name="q1" value="D">
+        Operating System
+        <br><br>
+
+
+        <h3>Question 2</h3>
+        <p>Which keyword is used to create a function in Python?</p>
+
+        <input type="radio" name="q2" value="A" required>
+        function
+        <br>
+
+        <input type="radio" name="q2" value="B">
+        def
+        <br>
+
+        <input type="radio" name="q2" value="C">
+        func
+        <br>
+
+        <input type="radio" name="q2" value="D">
+        create
+        <br><br>
+
+
+        <button type="submit">Submit Quiz</button>
+
+    </form>
+
+</body>
+</html>
